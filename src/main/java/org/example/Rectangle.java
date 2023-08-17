@@ -5,6 +5,7 @@ public class Rectangle extends Shape {
     private double height;
 
     public Rectangle(double width, double height) {
+        super("Rectangle");
         if (width <= 0 || height <= 0) {
             throw new IllegalArgumentException("Width and height must be positive");
         }
@@ -20,11 +21,6 @@ public class Rectangle extends Shape {
     @Override
     public double getPerimeter() {
         return 2 * (width + height);
-    }
-
-    @Override
-    public String getName() {
-        return "Rectangle";
     }
 
     public double getWidth() {

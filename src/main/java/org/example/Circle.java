@@ -4,6 +4,7 @@ public class Circle extends Shape {
     private double radius;
 
     public Circle(double radius) {
+        super("Circle");
         if (radius <= 0) {
             throw new IllegalArgumentException("Radius must be positive");
         }
@@ -18,11 +19,6 @@ public class Circle extends Shape {
     @Override
     public double getPerimeter() {
         return 2 * Math.PI * radius;
-    }
-
-    @Override
-    public String getName() {
-        return "Circle";
     }
 
     public double getRadius() {
