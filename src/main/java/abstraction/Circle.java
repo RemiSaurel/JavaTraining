@@ -1,4 +1,4 @@
-package org.example;
+package abstraction;
 
 public class Circle extends Shape {
     private double radius;

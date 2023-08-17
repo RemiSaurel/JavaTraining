@@ -1,4 +1,4 @@
-package org.example;
+package abstraction;
 
 public abstract class Shape {
 

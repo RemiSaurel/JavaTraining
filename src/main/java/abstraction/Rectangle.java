@@ -1,4 +1,4 @@
-package org.example;
+package abstraction;
 
 public class Rectangle extends Shape {
     private double width;
