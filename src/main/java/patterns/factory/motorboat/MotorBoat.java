@@ -3,8 +3,8 @@ package patterns.factory.motorboat;
 import patterns.factory.Boat;
 
 public class MotorBoat implements Boat {
-    private int speed;
     private static final int NOTCH = 20;
+    private int speed;
 
     @Override
     public void forward() {

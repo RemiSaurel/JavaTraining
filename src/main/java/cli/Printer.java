@@ -19,8 +19,8 @@ public class Printer {
         for (Command command : commands) {
             System.out.print(
                     "-" + command.getLetter() +
-                    "\t" +
-                    "--" + command.getWord());
+                            "\t" +
+                            "--" + command.getWord());
             if (command.getArguments() != null) {
                 for (String argument : command.getArguments()) {
                     System.out.print(" <" + argument + "> ");

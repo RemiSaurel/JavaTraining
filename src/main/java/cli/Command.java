@@ -2,12 +2,12 @@ package cli;
 
 public class Command {
 
-    private char letter;
+    private final char letter;
 
-    private String word;
+    private final String word;
 
-    private String[] arguments;
-    private String help;
+    private final String[] arguments;
+    private final String help;
 
     public Command(char letter, String word, String[] arguments, String help) {
         this.letter = letter;

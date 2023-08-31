@@ -8,6 +8,7 @@ public class Support extends Hero {
     public void heal() {
         System.out.println("Healing...");
     }
+
     @Override
     public void ultimate() {
         System.out.println("Support ultimate!");

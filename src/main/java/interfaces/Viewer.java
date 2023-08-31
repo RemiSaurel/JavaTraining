@@ -2,8 +2,9 @@ package interfaces;
 
 public interface Viewer extends User {
 
-    public void watch();
+    void watch();
 
-    public void sendMessage(String message);
-    public void sendDonation(double amount);
+    void sendMessage(String message);
+
+    void sendDonation(double amount);
 }

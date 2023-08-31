@@ -3,6 +3,7 @@ package performance;
 public class Main {
 
     private final static long[] sizes = {1000, 1000000, 10000000};
+
     public static void main(String[] args) {
         PerformanceMeasurer performanceMeasurer = new PerformanceMeasurer();
         try {

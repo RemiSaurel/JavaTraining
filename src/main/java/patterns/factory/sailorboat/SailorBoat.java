@@ -3,9 +3,9 @@ package patterns.factory.sailorboat;
 import patterns.factory.Boat;
 
 public class SailorBoat implements Boat {
+    private static final int NOTCH = 10;
     private int speed;
 
-    private static final int NOTCH = 10;
     @Override
     public void forward() {
         System.out.println("Sailor boat is moving forward");

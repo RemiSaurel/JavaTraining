@@ -9,9 +9,7 @@ public class Parser {
         }
         String command = words[0];
         String[] arguments = new String[words.length - 1];
-        for (int i = 1; i < words.length; i++) {
-            arguments[i - 1] = words[i];
-        }
+        System.arraycopy(words, 1, arguments, 0, words.length - 1);
         switch (command) {
             case "-h":
                 Printer.help(Main.COMMANDS);

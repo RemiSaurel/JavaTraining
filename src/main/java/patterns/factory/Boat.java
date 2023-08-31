@@ -1,21 +1,21 @@
 package patterns.factory;
 
 public interface Boat {
-    public void forward();
+    void forward();
 
-    public void backward();
+    void backward();
 
-    public void left();
+    void left();
 
-    public void right();
+    void right();
 
-    public void stop();
+    void stop();
 
-    public void start();
+    void start();
 
-    public void increaseSpeed();
+    void increaseSpeed();
 
-    public void decreaseSpeed();
+    void decreaseSpeed();
 
     void print();
 }

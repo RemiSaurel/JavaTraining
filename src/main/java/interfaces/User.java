@@ -2,11 +2,11 @@ package interfaces;
 
 public interface User {
 
-    public String getUsername();
+    String getUsername();
 
-    public void setUsername(String username);
+    void setUsername(String username);
 
-    public String getChannel();
+    String getChannel();
 
-    public void setChannel(String channel);
+    void setChannel(String channel);
 }
